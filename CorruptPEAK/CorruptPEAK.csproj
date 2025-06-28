@@ -1,0 +1,536 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <AssemblyName>CorruptPEAK</AssemblyName>
+    <Description>CorruptPEAK</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+    </PropertyGroup>
+	<ItemGroup>
+		<Reference Include="BepInEx">
+			<HintPath>../../../../../../../Program Files (x86)/Steam/steamapps/common/Gorilla Tag/BepInEx/core/BepInEx.dll</HintPath>
+		</Reference>
+		<Reference Include="BepInEx.Harmony">
+			<HintPath>../../../../../../../Program Files (x86)/Steam/steamapps/common/Gorilla Tag/BepInEx/core/BepInEx.Harmony.dll</HintPath>
+		</Reference>
+		<Reference Include="0Harmony">
+			<HintPath>../../../../../../../Program Files (x86)/Steam/steamapps/common/Gorilla Tag/BepInEx/core/0Harmony.dll</HintPath>
+		</Reference>
+	</ItemGroup>
+
+	<ItemGroup>
+    <Reference Include="Ashley.MeshSplitter">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Ashley.MeshSplitter.dll</HintPath>
+      </Reference>
+    <Reference Include="Assembly-CSharp-firstpass">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Assembly-CSharp-firstpass.dll</HintPath>
+      </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Assembly-CSharp.dll</HintPath>
+      </Reference>
+    <Reference Include="com.rlabrecque.steamworks.net">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/com.rlabrecque.steamworks.net.dll</HintPath>
+      </Reference>
+	  
+    <Reference Include="DemiLib">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/DemiLib.dll</HintPath>
+      </Reference>
+    <Reference Include="DOTween">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/DOTween.dll</HintPath>
+      </Reference>
+    <Reference Include="DOTweenPro">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/DOTweenPro.dll</HintPath>
+      </Reference>
+    <Reference Include="HBAO.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/HBAO.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="HBAO.Universal.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/HBAO.Universal.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Mono.Security">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Mono.Security.dll</HintPath>
+      </Reference>
+    <Reference Include="netstandard">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/netstandard.dll</HintPath>
+      </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Newtonsoft.Json.dll</HintPath>
+      </Reference>
+    <Reference Include="Photon3Unity3D">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Photon3Unity3D.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonChat">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonChat.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonRealtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonRealtime.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonUnityNetworking.Demos">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonUnityNetworking.Demos.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonUnityNetworking.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonUnityNetworking.Utilities">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonUnityNetworking.Utilities.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonVoice.API">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonVoice.API.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonVoice">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonVoice.dll</HintPath>
+      </Reference>
+    <Reference Include="PhotonVoice.PUN">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/PhotonVoice.PUN.dll</HintPath>
+      </Reference>
+    <Reference Include="pworld">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/pworld.dll</HintPath>
+      </Reference>
+    <Reference Include="sc.posteffects.runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/sc.posteffects.runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.OdinInspector.Attributes">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.OdinInspector.Attributes.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.OdinInspector.Modules.Unity.Addressables">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.OdinInspector.Modules.Unity.Addressables.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.OdinInspector.Modules.UnityLocalization">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.OdinInspector.Modules.UnityLocalization.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.Serialization.Config">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.Serialization.Config.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.Serialization">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.Serialization.dll</HintPath>
+      </Reference>
+    <Reference Include="Sirenix.Utilities">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Sirenix.Utilities.dll</HintPath>
+      </Reference>
+    <Reference Include="Tayx.Graphy">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Tayx.Graphy.dll</HintPath>
+      </Reference>
+    <Reference Include="unity-websocket-sharp">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/unity-websocket-sharp.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Addressables">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Addressables.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.AI.Navigation">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.AI.Navigation.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Animation.Rigging">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Animation.Rigging.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Animation.Rigging.DocCodeExamples">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Animation.Rigging.DocCodeExamples.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Burst.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Burst.Unsafe">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Burst.Unsafe.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Collections.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.InputSystem.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.InputSystem.ForUI.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.InternalAPIEngineBridge.013">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.InternalAPIEngineBridge.013.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Localization">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Localization.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Mathematics.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.MemoryProfiler">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.MemoryProfiler.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Multiplayer.Center.Common">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Multiplayer.Center.Common.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Multiplayer.Playmode.Common.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Multiplayer.Playmode.Common.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Multiplayer.Playmode">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Multiplayer.Playmode.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Networking.Transport">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Networking.Transport.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Profiling.Core">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Profiling.Core.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Rendering.LightTransport.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Rendering.LightTransport.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipeline.Universal.ShaderLibrary">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipeline.Universal.ShaderLibrary.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime.Shared">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.ShaderLibrary">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Core.ShaderLibrary.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.GPUDriven.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.GPUDriven.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.ShaderGraph.ShaderGraphLibrary.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.2D.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Config.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Universal.Config.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Shaders">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.RenderPipelines.Universal.Shaders.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.ResourceManager.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.ScriptableBuildPipeline">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.ScriptableBuildPipeline.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Authentication">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Authentication.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Authentication.PlayerAccounts">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Authentication.PlayerAccounts.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Analytics">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Analytics.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Components">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Components.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Configuration">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Configuration.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Device">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Device.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Environments">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Environments.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Environments.Internal">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Environments.Internal.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Internal">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Internal.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Networking">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Networking.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Registration">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Registration.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Scheduler">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Scheduler.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Telemetry">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Telemetry.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Core.Threading">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Core.Threading.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Multiplayer">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Multiplayer.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.QoS">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.QoS.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Services.Wire.Internal">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Services.Wire.Internal.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Splines">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Splines.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.TextMeshPro.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.Timeline">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.Timeline.dll</HintPath>
+      </Reference>
+    <Reference Include="Unity.VisualEffectGraph.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Unity.VisualEffectGraph.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AccessibilityModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AMDModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AMDModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AndroidJNIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AndroidJNIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AnimationModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ARModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AssetBundleModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.AudioModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ClothModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ClusterInputModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ClusterRendererModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ContentLoadModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ContentLoadModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.CoreModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.CrashReportingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.DirectorModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.DSPGraphModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.DSPGraphModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.GameCenterModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.GIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.GIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.GraphicsStateCollectionSerializerModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.GridModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.HierarchyCoreModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.HierarchyCoreModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.HotReloadModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ImageConversionModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.IMGUIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.InputForUIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.InputForUIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.InputLegacyModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.InputModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.JSONSerializeModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.LocalizationModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.MarshallingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.MarshallingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.MultiplayerModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.MultiplayerModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.NVIDIAModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.NVIDIAModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ParticleSystemModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.PerformanceReportingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.Physics2DModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.PhysicsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.PropertiesModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.PropertiesModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ScreenCaptureModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.ShaderVariantAnalyticsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.ShaderVariantAnalyticsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.SharedInternalsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.SpriteMaskModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.SpriteShapeModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.StreamingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.SubstanceModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.SubsystemsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.SubsystemsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TerrainModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TextCoreFontEngineModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TextCoreFontEngineModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TextCoreTextEngineModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TextCoreTextEngineModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TextRenderingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TilemapModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.TLSModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UI.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UIElementsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UIModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UmbraModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsCommonModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityAnalyticsCommonModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityConnectModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityCurlModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityCurlModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityWebRequestModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.VehiclesModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.VFXModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.VideoModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.VirtualTexturingModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.VirtualTexturingModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.VRModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.WindModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityEngine.XRModule.dll</HintPath>
+      </Reference>
+    <Reference Include="UnityUIExtensions">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/UnityUIExtensions.dll</HintPath>
+      </Reference>
+    <Reference Include="websocket-sharp">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/websocket-sharp.dll</HintPath>
+      </Reference>
+    <Reference Include="Whinarn.UnityMeshSimplifier.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Whinarn.UnityMeshSimplifier.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.AutoLOD">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.AutoLOD.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.ControllerSupport">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.ControllerSupport.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.Core.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.Core.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.JiggleBones">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.JiggleBones.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.PhotonUtility">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.PhotonUtility.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.Settings.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.Settings.Runtime.dll</HintPath>
+      </Reference>
+    <Reference Include="Zorro.UI.Runtime">
+      <HintPath>C:\Users\EndisAstro\Downloads\Managed\Managed/Zorro.UI.Runtime.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+  </Project>
