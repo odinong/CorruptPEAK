@@ -52,7 +52,7 @@ All settings are currently hardcoded in the plugin source but can be customized 
 
 ## How It Works
 
-- When you Photon room, corruption automatically begins.
+- When you join Photon room, corruption automatically begins.
 - The corruption intensity gradually increases, amplifying the visual and audio distortions.
 - Random elements in the scene are continuously selected and corrupted based on the current intensity.
 - Corruption includes color shifts, texture distortions, mesh deformation, audio pitch/volume shifts, and particle effect randomness.
