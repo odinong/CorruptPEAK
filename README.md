@@ -27,7 +27,7 @@
 ## Installation
 
 1. Install **BepInEx** (version compatible with your game).
-2. Download the latest release of CorruptPEAK.dll from the [Releases](https://github.com/yourusername/CorruptPEAK/releases) page.
+2. Download the latest release of CorruptPEAK.dll from the [Releases](https://github.com/odinong/CorruptPEAK/releases) page.
 3. Place `CorruptPEAK.dll` into the `BepInEx/plugins` folder of your game directory.
 4. Launch the game and join a multiplayer room to see the corruption effects begin.
 
