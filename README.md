@@ -1,4 +1,4 @@
-# CorruptPEAK (This readme was generated from gpt cus im lazy)
+# CorruptPEAK
 
 ![CorruptPEAK Banner](https://github.com/odinong/CorruptPEAK/blob/main/CorruptPEAKUncropped.png?raw=true)  
 
