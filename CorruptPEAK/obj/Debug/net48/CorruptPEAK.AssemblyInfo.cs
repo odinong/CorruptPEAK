@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("CorruptPEAK")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb4bad9c26bb122859fa1704692c61ceffd98cac")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1866ae49988729203a708598c06d3abd13dccac5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CorruptPEAK")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CorruptPEAK")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

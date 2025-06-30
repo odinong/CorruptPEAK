@@ -6,6 +6,7 @@
 		<Message Text="Copied to Plugins" Importance="high"/>
 
 		<Exec Command="echo 'Building complete! Starting PEAK...'" />
+		<Exec Command="start steam://rungameid/3527290" />
 	</Target>
 
 </Project>
