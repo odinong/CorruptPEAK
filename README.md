@@ -2,6 +2,32 @@
 
 ![CorruptPEAK Banner](https://github.com/odinong/CorruptPEAK/blob/main/CorruptPEAKUncropped.png?raw=true)  
 
+# Changelog
+
+## [Unreleased]
+
+### Planned Added
+- Networking for users using the mod
+- Ways to revert corruption
+---
+
+## [1.1.0] - 2025-06-30
+
+### Added
+- Added BepInEx Config
+- Added RandomValueCorruption (disabled by default)
+- Added CustomProp (unused for right now)
+- Added AntiCrashMessage
+
+### Fixed
+- Crashes when a certain object is messed with
+---
+
+## [1.0.0] - 2025-06-15
+
+### Added
+- Initial release
+
 ## Overview
 
 **CorruptPEAK** is a BepInEx plugin mod that introduces dynamic visual and audio corruption effects into the game environment. Using various randomized distortions on rendering, audio, particles, meshes, transforms, and lightmaps, the mod progressively increases its intensity during gameplay, creating a unique and chaotic experience.
