@@ -53,6 +53,10 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "CustomPropCheck.cs",
@@ -110,18 +114,6 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CorruptPEAK",
-              "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
-              "RelativeDocumentMoniker": "CorruptPEAK\\CorruptPEAK.csproj",
-              "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
-              "RelativeToolTip": "CorruptPEAK\\CorruptPEAK.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T01:28:29.201Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 5,
               "Title": "CorruptPEAK.csproj",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
@@ -154,9 +146,21 @@
               "RelativeDocumentMoniker": "CorruptPEAK\\Plugin.cs",
               "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Plugin.cs",
               "RelativeToolTip": "CorruptPEAK\\Plugin.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDwAAAB/AAAAAAAAAA==",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAowHQAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T20:51:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CorruptPEAK",
+              "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
+              "RelativeDocumentMoniker": "CorruptPEAK\\CorruptPEAK.csproj",
+              "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
+              "RelativeToolTip": "CorruptPEAK\\CorruptPEAK.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-06-30T01:28:29.201Z",
               "EditorCaption": ""
             }
           ]

@@ -27,6 +27,7 @@ namespace CorruptPEAK
         public static ConfigEntry<bool> AntiCrashEnabled;
         public static float CorruptionIntensity = 0.0001f;
         public static ConfigEntry<float> CorruptionIncreaseRate;
+        public static ConfigEntry<float> AntiCrashLimit;
         public static ConfigEntry<bool> CorruptRenderers;
         public static ConfigEntry<bool> CorruptAudio;
         public static ConfigEntry<bool> CorruptParticles;
@@ -44,6 +45,7 @@ namespace CorruptPEAK
         private void Awake()
         {
             AntiCrashEnabled = Config.Bind("General", "AntiCrashEnabled", true, "makes ur game quit before it dies");
+            AntiCrashLimit = Config.Bind("General", "AntiCrashLimit", 20f, "corruption intensity to quit your game at");
             CorruptionIncreaseRate = Config.Bind("Corruption", "CorruptionIncreaseRate", 0.0001f, "how fast the corruption increases");
             CorruptRenderers = Config.Bind("Corruption Options", "CorruptRenderers", true, "makes it so that colors break");
             CorruptAudio = Config.Bind("Corruption Options", "CorruptAudio", true, "makes it so that audio values change");
@@ -60,8 +62,8 @@ namespace CorruptPEAK
             {
                 CorruptionIntensity = Mathf.Clamp(CorruptionIntensity + CorruptionIncreaseRate.Value * Time.deltaTime, 0f, 500f);
             }
-
-            if (CorruptionIntensity > 20f && AntiCrashEnabled.Value)
+            // i think 20 should be fine, if it doesnt say 20 then i changed it so its a config
+            if (CorruptionIntensity > AntiCrashLimit.Value && AntiCrashEnabled.Value)
             {
                 MessageBox(IntPtr.Zero, "Hey your game is about to crash so its also about to quit so bye", "AntiCrash", 0);
                 Application.Quit();
