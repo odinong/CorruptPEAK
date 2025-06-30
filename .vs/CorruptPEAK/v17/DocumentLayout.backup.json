@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 10,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "CorruptPEAK\\CustomPropCheck.cs",
               "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:31:50.217Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T08:31:50.217Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "CorruptPEAK\\NuGet.Config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-06-30T08:19:54.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T08:19:54.743Z"
             },
             {
               "$type": "Document",
@@ -92,8 +90,7 @@
               "RelativeToolTip": "CorruptPEAK\\Notifications.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:19:48.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T08:19:48.726Z"
             },
             {
               "$type": "Document",
@@ -105,12 +102,7 @@
               "RelativeToolTip": "CorruptPEAK\\CampfireReverser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:16:21.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2025-06-30T08:16:21.294Z"
             },
             {
               "$type": "Document",
@@ -122,8 +114,7 @@
               "RelativeToolTip": "CorruptPEAK\\CorruptPEAK.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T01:28:23.297Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T01:28:23.297Z"
             },
             {
               "$type": "Document",
@@ -135,8 +126,7 @@
               "RelativeToolTip": "CorruptPEAK\\Directory.Build.targets",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-06-30T01:23:49.754Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T01:23:49.754Z"
             },
             {
               "$type": "Document",
@@ -146,7 +136,7 @@
               "RelativeDocumentMoniker": "CorruptPEAK\\Plugin.cs",
               "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Plugin.cs",
               "RelativeToolTip": "CorruptPEAK\\Plugin.cs",
-              "ViewState": "AgIAAEEAAAAAAAAAAAAowHQAAAAyAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDoAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T20:51:52.079Z",
               "EditorCaption": ""
@@ -160,8 +150,7 @@
               "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
               "RelativeToolTip": "CorruptPEAK\\CorruptPEAK.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-06-30T01:28:29.201Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-06-30T01:28:29.201Z"
             }
           ]
         },

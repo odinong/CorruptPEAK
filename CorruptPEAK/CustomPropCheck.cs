@@ -20,17 +20,17 @@ namespace CorruptPEAK
                 {
                     if(player.IsMasterClient)
                     {
-                        Notifications.SendOnce("<color=blue>[CorruptPEAK] : The host is using CorruptPEAK!</color>");
+                        Notifications.SendOnce("<color=blue>[ CorruptPEAK ] : The host is using CorruptPEAK!</color>");
                     }
                     else
                     {
-                        Notifications.SendOnce("<color=blue>[CorruptPEAK] : Another player is using CorruptPEAK!</color>");
+                        Notifications.SendOnce("<color=blue>[ CorruptPEAK ] : Another player is using CorruptPEAK!</color>");
 
                     }
                 }
                 if (player.CustomProperties.ContainsKey("CRPTPEAK") && PhotonNetwork.IsMasterClient)
                 {
-                    Notifications.SendOnce("<color=blue>[CorruptPEAK] : Another user is using CorruptPEAK!</color>");
+                    Notifications.SendOnce("<color=blue>[ CorruptPEAK ] : Another user is using CorruptPEAK!</color>");
                 }
             }
         }

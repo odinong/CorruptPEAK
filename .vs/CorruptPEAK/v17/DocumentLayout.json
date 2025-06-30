@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|c:\\users\\endisastro\\source\\repos\\corruptpeak\\corruptpeak\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|solutionrelative:corruptpeak\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|c:\\users\\endisastro\\source\\repos\\corruptpeak\\corruptpeak\\custompropcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|solutionrelative:corruptpeak\\custompropcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|c:\\users\\endisastro\\source\\repos\\corruptpeak\\corruptpeak\\campfirereverser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|solutionrelative:corruptpeak\\campfirereverser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|c:\\users\\endisastro\\source\\repos\\corruptpeak\\corruptpeak\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|solutionrelative:corruptpeak\\plugin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{080B15F8-5715-41FF-9ACA-5E511AA07CAE}|CorruptPEAK\\CorruptPEAK.csproj|c:\\users\\endisastro\\source\\repos\\corruptpeak\\corruptpeak\\notifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -58,19 +54,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CustomPropCheck.cs",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CustomPropCheck.cs",
               "RelativeDocumentMoniker": "CorruptPEAK\\CustomPropCheck.cs",
               "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CustomPropCheck.cs",
               "RelativeToolTip": "CorruptPEAK\\CustomPropCheck.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAAAA0AAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:31:50.217Z"
+              "WhenOpened": "2025-06-30T08:31:50.217Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "NuGet.Config",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\NuGet.Config",
               "RelativeDocumentMoniker": "CorruptPEAK\\NuGet.Config",
@@ -82,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Notifications.cs",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Notifications.cs",
               "RelativeDocumentMoniker": "CorruptPEAK\\Notifications.cs",
@@ -94,19 +91,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CampfireReverser.cs",
-              "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CampfireReverser.cs",
-              "RelativeDocumentMoniker": "CorruptPEAK\\CampfireReverser.cs",
-              "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CampfireReverser.cs",
-              "RelativeToolTip": "CorruptPEAK\\CampfireReverser.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-30T08:16:21.294Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "CorruptPEAK.csproj",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
               "RelativeDocumentMoniker": "CorruptPEAK\\CorruptPEAK.csproj",
@@ -118,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Directory.Build.targets",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Directory.Build.targets",
               "RelativeDocumentMoniker": "CorruptPEAK\\Directory.Build.targets",
@@ -130,20 +115,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Plugin.cs",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Plugin.cs",
               "RelativeDocumentMoniker": "CorruptPEAK\\Plugin.cs",
               "ToolTip": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\Plugin.cs",
               "RelativeToolTip": "CorruptPEAK\\Plugin.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAgwDoAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAKgAAAAAAAAAAAAcwGcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-06-28T20:51:52.079Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "CorruptPEAK",
               "DocumentMoniker": "C:\\Users\\EndisAstro\\source\\repos\\CorruptPEAK\\CorruptPEAK\\CorruptPEAK.csproj",
               "RelativeDocumentMoniker": "CorruptPEAK\\CorruptPEAK.csproj",
